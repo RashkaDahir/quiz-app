@@ -23,15 +23,15 @@ export default function Main() {
         <h1 className='title text-light'>Quiz-WebApp</h1>
 
         <ol>
-            <li>You will be asked 5 questions one after another.</li>
-            <li>10 points is awarded for the correct answer.</li>
-            <li>Each question has three options. You can choose only one options.</li>
-            <li>You can review and change answers before the quiz finish.</li>
-            <li>The result will be declared at the end of the quiz.</li>
+            <li>Waxa Lagu Weydindona 5 Su'aalo</li>
+            <li>halki suaal waxa lagu Siindona 10 dhibco</li>
+            <li>Quiz Waxa lagu sixidona 50 dhibco</li>
+            <li>Su'aasha jawaabteyda hada bixiso inta adan dhiman dib wad ulaban karta</li>
+            <li>Quiz marku dhamado waxa lagu siin Dona Resultigaga</li>
         </ol>
 
         <form id="form">
-            <input ref={inputRef} className="userid" type="text" placeholder='Username*' />
+            <input ref={inputRef} className="userid" type="text" placeholder='GALI MAGACAGA' />
         </form>
 
         <div className='start'>
