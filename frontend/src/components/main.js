@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 import { setUserId } from '../Redux/result_reducer'
 import '../styles/Main.css'
 
+import addnew_delete from './addnew_delete'
+
+
+
 export default function Main() {
 
     const inputRef = useRef(null)
@@ -36,6 +40,13 @@ export default function Main() {
         <div className='start'>
             <Link className='btn' to={'quiz'} onClick={startQuiz}>Start Quiz</Link>
         </div>
+
+        <div className='start'>
+            <Link class="button button1"  to={'Addnew_delete'}   >Start Quiz</Link>
+        </div>
+
+
+        
 
     </div>
   )
